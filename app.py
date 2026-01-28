@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import plotly.graph_objects as go
 
-car_data = pd.read_csv(r'C:\Users\ZENBOOK\OneDrive - Grupo SICCSA\Documentos\Tripleten py\sprint_7_project\vehicles_us.csv')
+car_data = pd.read_csv('vehicles_us.csv')
 
 st.header('Histograma VENTA DE COCHES')
 
